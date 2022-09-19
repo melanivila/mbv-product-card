@@ -1,5 +1,5 @@
-import { useEffect, useState, useRef } from "react";
-import { InitialValues, onChangeArgs, Product } from "../interfaces/interfaces";
+import { useEffect, useState, useRef } from 'react';
+import { InitialValues, onChangeArgs, Product } from '../interfaces/interfaces';
 
 interface useProductsArgs {
   product: Product;
@@ -18,7 +18,7 @@ export const useProduct = ({
 
   const isMounted = useRef(false);
 
-  // console.log(initialValues?.count);
+  console.log(initialValues?.count);
 
   // const isControlled = useRef(!!onChange);
 
